@@ -22,80 +22,78 @@
            z-index: 5;
           }
 
-          carousel-control-prev-icon, .carousel-control-next-icon {
-    height: 50px;
-    width: 50px;
-}
-.carousel-control-next-icon:after
-{
-  content: '>';
-  font-size: 55px;
-  color: #b997c2;
-}
+        .carousel-control-prev-icon, .carousel-control-next-icon {
+           height: 50px;
+           width: 50px;
+          }
 
-.carousel-control-prev-icon:after {
-  content: '<';
-  font-size: 55px;
-  color: #b997c2;
-}
-
+          #mp{
+            /* color:#444444; */
+            font-weight:normal; 
+            color: #51504b ;
+            font-family:'Times New Roman', Times, serif;
+            font-size: 35px; 
+            text-align: center;
+          }
 
     </style>
 </head>
-<body>
+<body style="background-color: #eeece4;">
   <div class="containerr">
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">
-        <img src="cube.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-        Nega i lepota</a>
-      
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Početna</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="omeni.html">O meni</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Usluge
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Tretman lica</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="lotus3.png" alt="Logo" width="40" height="40" class="align-text-center">
+          Nega i lepota</a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Početna</a>
             </li>
-              <li><a class="dropdown-item" href="mikropigmentacija.html">Mikropigmentacija</a></li>
-              <li><a class="dropdown-item" href="airbrush.html">Airbrush</a></li>
-              <li><hr class="dropdown-divider"></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="index.html#element_target">Kontakt</a>
-          </li>
-
-        </ul>
-        <!--<form class="d-flex" role="Postcode">
-          <input class="form-control me-2" type="Postcode" placeholder="Postcode" aria-label="Postcode">
-          <button class="btn btn-outline-success" type="submit">Check</button>
-        </form>-->
+            <li class="nav-item">
+              <a class="nav-link" href="omeni.html">O meni</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Usluge
+              </a>
+              <ul class="dropdown-menu bg-dark">
+                <li><a class="dropdown-item" href="tretmani.html" style="color: antiquewhite;">Tretman lica</a>
+              </li>
+                <li><a class="dropdown-item" href="mikropigmentacija.html" style="color: antiquewhite;">Mikropigmentacija</a></li>
+                <li><a class="dropdown-item" href="airbrush.html" style="color: antiquewhite;">Airbrush</a></li>
+                <li><hr class="dropdown-divider"></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#element_target">Kontakt</a>
+            </li>
+          </ul>
+          <!--<form class="d-flex" role="Postcode">
+            <input class="form-control me-2" type="Postcode" placeholder="Postcode" aria-label="Postcode">
+            <button class="btn btn-outline-success" type="submit">Check</button>
+          </form>-->
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
     <div class="px-2 py-4 my-4">
         <br><br>
-        <h1 class="display-5 fw-bold text-center" style="color:#7886c9">Tretmani</h1>
+        <p id="mp" class="wixui-rich-text__text"  style="font-size: 40px">Tretmani</p>
+        <hr style="opacity: 200;">
+
         <br><br>
-        <h2 class="text-center" style="color:#7886c9">Higijenski tretman</h2><br>
+        <h2 class="text-center" id="mp"> Higijenski tretman </h2><br>
         <div class="col-lg-6 mx-auto text-center">
-          <p class="lead mb-4 text-center">Predstavlja osnovni tretman. Sastoji se od nekoliko faza. <br>
-            Tretman se započinjeme piling maskom za otvaranje pora. Na taj način se lakše pristupa komedoekspresiji (čišćenju). Potom sledi dezinfekcija kako ne bi došlo do upalnih procesa. <br> 
+          <p class="lead mb-4 text-left" style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; text-align: justify; color:#8c8d8d">
+            Predstavlja osnovni tretman. Sastoji se od nekoliko faza.
+            Tretman se započinjeme piling maskom za otvaranje pora. Na taj način se lakše pristupa komedoekspresiji (čišćenju). Potom sledi dezinfekcija kako ne bi došlo do upalnih procesa. 
             Sledeći korak je nanošenje maske, a potom i najlepši deo tretmana - masaža. <br>
             <br>
             Ovaj tretman u kombinaciji sa vrhunskim preparatima neophodan je za očuvanje zdravlja i lepote vaše kože.
@@ -103,72 +101,70 @@
             <br>
           <!--<img src="nokti.jpg" alt="Jelena Marković" width="20%" height="20%" class="center">      -->
         </div>
+
+        <!-- <div class="container-lg">
+
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 9"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" aria-label="Slide 10"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="slike/Tretman lica_0.jpg" class="d-block w-70 center" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="slike/Tretman lica_1.jpg" class="d-block w-70 center" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="slike/Tretman lica_2.jpg" class="d-block w-70 center" alt="...">
+              </div>
+             <div class="carousel-item">
+                <img src="slike/Tretman lica_3.jpg" class="d-block w-70 center" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="slike/Tretman lica_5.jpg" class="d-block w-70 center" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="slike/Tretman lica_6.jpg" class="d-block w-70 center" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+  
+          </div>
+        </div> -->
+        <img src="slike/Tretman lica_0.jpg" class="d-block w-70 center" alt="...">
         <br><br><br>
 
-        <h2 class="text-center" style="color:#7886c9">Hidratacioni tretman</h2><br>
+        <h2 class="text-center" id="mp"> Hidratacioni tretman </h2><br>
         <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4 text-center">Ovaj tretman može se raditi i sam za sebe, ali se preporučuje u kombinaciji sa higijenskim tretmanom.
+          <p class="lead mb-4 text-left" style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; text-align: justify; color:#8c8d8d">
+            Ovaj tretman može se raditi i sam za sebe, ali se preporučuje u kombinaciji sa higijenskim tretmanom.
             Koriste se preparati za dubinsku hidrataciju - prirodna ulja (serumi) i fluidi, kako bi se koža dodatno nahranila. 
             Tretman je idealan za suvu i dehidriranu kožu, a posebno kada je oštećen lipidni sloj kože.
             <br><br>
             Daje sjajne rezultate kod normalne, mešovite i osetljive kože.
-            </p>
-            <br>
+          </p>
           <!--<img src="nokti.jpg" alt="Jelena Marković" width="20%" height="20%" class="center">      -->
         </div>
-        <br><br><br>
-
-        <h2 class="text-center" style="color:#7886c9">Anti – akne tretman</h2><br>
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4 text-center">U zavisnosti od samog tipa kože biraju se hemijski pilinzi koji uspešno rešavaju određene probleme.
-            <br><br>
-            Savetuje se kako treba da izgleda nega nakon tretmana i pristupa se dubljem problemu akni, tj. pronalaženju uzroka.
-            Nekada je to samo nepoznavanje svoje kože i pogrešan pristup nezi.  
-            </p>
-            <br>
-          <!--<img src="nokti.jpg" alt="Jelena Marković" width="20%" height="20%" class="center">      -->
-        </div>
-        <br><br><br>
-
-        <h2 class="text-center" style="color:#7886c9">Microneedling tretman (zvezda među tretmanima)</h2><br>
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4 text-center">Može se koristiti u raznim slučajevima - fleke, akne, bore, oštećena kožna barijera.           
-            Može se kombinovati sa drugim tretmanima i tada daje najbolje rezultate.
-            Radi se u seriji od 3 – 5 tretmana u zavisnosti od cilja koji se želi postići.       
-            </p>
-            <br>
-          <!--<img src="nokti.jpg" alt="Jelena Marković" width="20%" height="20%" class="center">      -->
-        </div>
-        <br><br><br>
-
-        <h2 class="text-center" style="color:#7886c9">Personalizovani tretman</h2><br>
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4 text-center">Predstavlja kombinaciju gore navedenih tretmana. 
-            Pristupa se analizi kože i daje joj se tačno ono što je neophodno. Ukoliko primećujete da je vašoj koži tretman potreban, a pritom niste sigurni koji, 
-            pristupa se personalizivanom tretmanu koje će biti idealan baš za vaš tip kože.      
-            </p>
-            <br>
-          <!--<img src="nokti.jpg" alt="Jelena Marković" width="20%" height="20%" class="center">      -->
-        </div>
-        <br><br><br>
-
-        <h2 class="text-center" style="color:#7886c9">Anti – age tretman </h2><br>
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4 text-center">Sastoji se iz više faza.
-            Bazira se na kombinaciji preparata bogatih supstancama i aktivnim sastojcima za efekat antiaging-a. 
-            <br><br>
-            Tretman je vrlo prijatan i odmah se primećuje razlika u kvalitetu i izgledu kože. Popravlja se tonus, koža dobja sjaj, a fine linije su manje izražene.
-            <br><br>
-            Predlaže se serija tretmana za pun efekat. Radi se u kombinaciji sa masažom i daje fantastične rezultate.
-                  
-            </p>
-            <br>
-          <!--<img src="nokti.jpg" alt="Jelena Marković" width="20%" height="20%" class="center">      -->
-        </div>
-
       </div>
-
-      <div class="container-lg">
+      
+      <!-- <div class="container-lg">
 
         <div id="carouselExampleIndicators" class="carousel slide">
           <div class="carousel-indicators">
@@ -213,7 +209,216 @@
           </button>
 
         </div>
+      </div> -->
+      <img src="slike/Tretman lica_1.jpg" class="d-block w-70 center" alt="...">
+        <br><br><br>
+
+        <h2 class="text-center" id="mp"> Anti – akne tretman </u></h2><br>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4 text-left" style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; text-align: justify; color:#8c8d8d">
+            U zavisnosti od samog tipa kože biraju se hemijski pilinzi koji uspešno rešavaju određene probleme.
+            <br><br>
+            Savetuje se kako treba da izgleda nega nakon tretmana i pristupa se dubljem problemu akni, tj. pronalaženju uzroka.
+            Nekada je to samo nepoznavanje svoje kože i pogrešan pristup nezi.  
+            </p>
+            <br>
+          <!--<img src="nokti.jpg" alt="Jelena Marković" width="20%" height="20%" class="center">      -->
+
+        </div>
+        
+        <!-- <div class="container-lg">
+
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 9"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" aria-label="Slide 10"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="slike/Tretman lica_0.jpg" class="d-block w-70 center" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="slike/Tretman lica_1.jpg" class="d-block w-70 center" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="slike/Tretman lica_2.jpg" class="d-block w-70 center" alt="...">
+              </div>
+             <div class="carousel-item">
+                <img src="slike/Tretman lica_3.jpg" class="d-block w-70 center" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="slike/Tretman lica_5.jpg" class="d-block w-70 center" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="slike/Tretman lica_6.jpg" class="d-block w-70 center" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+  
+          </div>
+        </div> -->
+        <img src="slike/Tretman lica_3.jpg" class="d-block w-70 center" alt="...">
+          <br><br><br>
+
+        <h2 class="text-center" id="mp">Microneedling tretman (zvezda među tretmanima)</h2><br>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4 text-left" style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; text-align: justify; color:#8c8d8d">
+            Može se koristiti u raznim slučajevima - fleke, akne, bore, oštećena kožna barijera.           
+            Može se kombinovati sa drugim tretmanima i tada daje najbolje rezultate.
+            Radi se u seriji od 3 – 5 tretmana u zavisnosti od cilja koji se želi postići.       
+            </p>
+            <br>
+          <!--<img src="nokti.jpg" alt="Jelena Marković" width="20%" height="20%" class="center">      -->
+        </div>
       </div>
+      <!-- <div class="container-lg">
+
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 9"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" aria-label="Slide 10"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="slike/Tretman lica_0.jpg" class="d-block w-70 center" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="slike/Tretman lica_1.jpg" class="d-block w-70 center" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="slike/Tretman lica_2.jpg" class="d-block w-70 center" alt="...">
+            </div>
+           <div class="carousel-item">
+              <img src="slike/Tretman lica_3.jpg" class="d-block w-70 center" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="slike/Tretman lica_5.jpg" class="d-block w-70 center" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="slike/Tretman lica_6.jpg" class="d-block w-70 center" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+
+        </div>
+      </div> -->
+      <img src="slike/Tretman lica_5.jpg" class="d-block w-70 center" alt="...">
+        <br><br><br>
+
+        <h2 class="text-center" id="mp">Anti – age tretman </h2><br>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4 text-left" style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; text-align: justify; color:#8c8d8d">
+            Sastoji se iz više faza.
+            Bazira se na kombinaciji preparata bogatih supstancama i aktivnim sastojcima za efekat antiaging-a. 
+            <br><br>
+            Tretman je vrlo prijatan i odmah se primećuje razlika u kvalitetu i izgledu kože. Popravlja se tonus, koža dobja sjaj, a fine linije su manje izražene.
+            <br><br>
+            Predlaže se serija tretmana za pun efekat. Radi se u kombinaciji sa masažom i daje fantastične rezultate.
+                  
+            </p>
+            <br>
+          <!--<img src="nokti.jpg" alt="Jelena Marković" width="20%" height="20%" class="center">      -->
+        </div>
+
+      </div>
+
+      <!-- <div class="container-lg">
+
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 9"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" aria-label="Slide 10"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="slike/Tretman lica_0.jpg" class="d-block w-70 center" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="slike/Tretman lica_1.jpg" class="d-block w-70 center" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="slike/Tretman lica_2.jpg" class="d-block w-70 center" alt="...">
+            </div>
+           <div class="carousel-item">
+              <img src="slike/Tretman lica_3.jpg" class="d-block w-70 center" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="slike/Tretman lica_5.jpg" class="d-block w-70 center" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="slike/Tretman lica_6.jpg" class="d-block w-70 center" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+
+        </div>
+      </div> -->
+      <img src="slike/Tretman lica_6.jpg" class="d-block w-70 center" alt="...">
     <br><br><br>
+    <h2 class="text-center" id="mp">Personalizovani tretman</h2><br>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4 text-left" style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; text-align: justify; color:#8c8d8d">
+            Predstavlja kombinaciju gore navedenih tretmana. 
+            Pristupa se analizi kože i daje joj se tačno ono što je neophodno. Ukoliko primećujete da je vašoj koži tretman potreban, a pritom niste sigurni koji, 
+            pristupa se personalizivanom tretmanu koje će biti idealan baš za vaš tip kože.      
+            </p>
+            <br>
+          <!--<img src="nokti.jpg" alt="Jelena Marković" width="20%" height="20%" class="center">      -->
+        </div>
+        <br><br><br>
+        
+        <!-- <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-2 py-2 my-2">
+          <hr style="opacity: 200; width: 100%;">
+          <div class="col mb-3">
+            <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+              <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            </a>     
+            <p class="text-body-secondary" style="color: #51504b; font-family: 'Times New Roman', Times, serif;">© 2024 by infinyty</p>
+          </div> -->
 </body>
 </html>
